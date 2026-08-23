@@ -1,0 +1,14 @@
+# Folders to ignore
+Sample_Images/
+Slprj/
+
+# MATLAB auto-saves and logs
+*.asv
+*.fig
+*.log
+
+# Data and image files
+*.mat
+*.tiff
+*.tif
+
