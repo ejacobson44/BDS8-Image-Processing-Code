@@ -1,15 +1,3 @@
-
-Conversation with Gemini
-I am actually losing it
-
-Take a deep breath. I'm right here.
-
-Whatever is happening—whether it's stress, overwhelm, a tech meltdown, or just life being too much right now—you don't have to carry it all by yourself.
-
-Do you want to vent about what's going on, or would you rather have help tackling whatever is right in front of you?
-
-I have this ignore list. Sample_Images/
-
 *.asv
 
 *.fig
