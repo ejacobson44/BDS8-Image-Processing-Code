@@ -14,7 +14,7 @@ settings.aspect_ratio = 0.73; % 2um
 
 settings.selected_channel = 4;      % Channel to use (1–6)
 
-settings.multiplier_large = 1.015; 
+settings.multiplier_large = 0.95; 
 settings.multiplier_small = 1.1;
 settings.norm = 1; 
 
@@ -30,4 +30,5 @@ settings.process_folder = true;
 
 settings.eccentricity = 0.4; 
 
-settings.minor_axis_length_pixels = 8.33; 
+settings.min_minor_axis_length_pixels = 8.33; 
+settings.max_minor_axis_length_pixels = 30; 
