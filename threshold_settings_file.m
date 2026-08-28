@@ -15,7 +15,7 @@ settings.aspect_ratio = 0.73; % 2um
 settings.selected_channel = 4;      % Channel to use (1–6)
 
 settings.multiplier_large = 1.015; 
-settings.multiplier_small = 1.01;
+settings.multiplier_small = 1.1;
 settings.norm = 1; 
 
 settings.min_size = 10;              % Minimum object size (in pixels)
