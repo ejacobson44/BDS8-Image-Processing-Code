@@ -50,7 +50,7 @@ if settings.select_txt == "all" % all images in folder
     % analyze all files in folder
     N = length(all_files);
     % analyze first N images in folder (for diagnostics) 
-    N = 10;
+    N = 100;
 
     % If working off a specific subset of images gated in FlowJo
 else
@@ -258,6 +258,13 @@ all_gated_CVs = [cells_size_gated.internal_CV];
 
 %% ===== Data Analysis ===== 
 
+
+wall_list = 1:min(100, N);   % Selects up to the first 100 images
+rejected_IDs = [];            % No excluded IDs crossed out
+
+Generate_Image_Wall(images, 'uint8_image', wall_list, "8bit images Images (First 100)", rejected_IDs);
+
+Generate_Image_Wall(images, 'current_image', wall_list, "Segmented Images (First 100)", rejected_IDs);
 
 
 

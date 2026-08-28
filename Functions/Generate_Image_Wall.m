@@ -72,7 +72,7 @@ for i = 1:num_to_show
 
         % Add ID Label
         txt = "ID: " + string(current_ID);
-        thumbs{i} = insertText(thumb, [5, 5], txt, 'FontSize', 12, 'BoxOpacity', 0.4);
+        thumbs{i} = insertText(thumb, [2, 2], txt, 'FontSize', 8, 'BoxOpacity', 0.4);
     else
         thumbs{i} = zeros(target_width, target_width, 3, 'uint8');
     end
