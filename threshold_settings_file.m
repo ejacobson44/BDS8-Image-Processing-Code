@@ -3,8 +3,8 @@
 settings.select_txt = "all";
 
 % folder containing all images
-settings.select_folder = "15 minutes harvested 1_20_images_20260424_1919_17";
-settings.select_file = '15 minutes harvested 1_20.fcs'; 
+settings.select_folder = "C:\Ethan!!!\DATA - 15_minute harvested\15 minutes harvested 1_20_images_20260424_1919_17";
+settings.select_file = "C:\Ethan!!!\DATA - 15_minute harvested\15 minutes harvested 1_20.fcs"; 
 
 settings.aspect_ratio = 0.73; % 2um
 % settings.aspect_ratio = 0.5611; % 3um 
